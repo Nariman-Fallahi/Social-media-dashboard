@@ -1,0 +1,93 @@
+@media screen and (min-width: 640px) {
+  .dlmode {
+    margin-top: -3.6rem;
+  }
+  .text-dlmode {
+    display: none;
+  }
+  .tex-dlmode-td {
+    display: flex;
+  }
+  .tex-dlmode-td p {
+    font-size: 0.8rem;
+  }
+  .hr-t {
+    display: none;
+  }
+  .box-info {
+    flex-grow: 1;
+    width: 40%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    height: 40vh;
+  }
+  .box-web {
+    bottom: 20vh;
+  }
+  .ot {
+    flex-direction: row;
+  }
+  .ot-box {
+    flex-grow: 1;
+    width: 30%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .title_web {
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ot-box {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-info {
+    width: 25%;
+  }
+  .first-p {
+    font-size: 1.8rem;
+  }
+  .dlmode {
+    width: 95%;
+  }
+  .tex-dlmode-td {
+    font-size: 1.1rem;
+  }
+  .child-2,
+  .tody-n p {
+    font-size: 1rem;
+  }
+  .title_web p {
+    font-size: 1.4rem;
+  }
+  .num-info .num p {
+    font-size: 2.4rem;
+  }
+  .text-icon .text p,
+  .img-num p {
+    font-size: 1.2rem;
+  }
+  .text-icon .icon img {
+    width: 2.5rem;
+  }
+  .ins-img {
+    width: 1.9rem !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .box-info {
+    width: 20%;
+  }
+  .dlmode {
+    margin-top: -4.3rem;
+  }
+  .ot-box {
+    width: 20%;
+  }
+}

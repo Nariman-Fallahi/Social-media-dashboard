@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../font/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-Medium;
+  src: url(../font/Inter-Medium.ttf);
+}
+body {
+  font-family: Inter-Medium;
+}
+p {
+  cursor: default;
+}
+
+.bg-body {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 45vh;
+  background-color: #f3f3f3;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.c-tex-dlmode {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  height: 20vh;
+  margin-top: 2rem;
+}
+.tex-dlmode {
+  width: 100%;
+  padding: 1rem;
+}
+.first-p {
+  font-family: Inter-Bold;
+  font-size: 1.3rem;
+}
+.child-2 {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.hr-t {
+  margin-top: 1.5rem;
+}
+.dlmode {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+.text-dlmode {
+  position: absolute;
+  left: 0;
+  margin-left: 1rem;
+}
+
+/* toggle-switch */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+  margin: 10px;
+  margin-right: 1.5rem !important;
+}
+.toggle-switch .toggle-input {
+  display: none;
+}
+.toggle-switch .toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 24px;
+  background: linear-gradient(to right, #dfdfdf, #cecece);
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.toggle-switch .toggle-label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
+}
+
+.box-web {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+  bottom: 12vh;
+  flex-wrap: wrap;
+}
+.box-info {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 34vh;
+  border-radius: 0.3rem;
+  background-color: #e3e3e3;
+  margin-top: 1.5rem;
+}
+@media (hover: hover) {
+  .box-info:hover {
+    background-color: #cbcbcb;
+  }
+}
+.border-box {
+  position: absolute;
+  width: 100%;
+  height: 0.3rem;
+  border-radius: 0.1rem;
+}
+.b-blue-g {
+  background: linear-gradient(to right, #0077ff, #2515ff);
+}
+.b-blue2-g {
+  background: linear-gradient(to right, #00e1ff, #008cff);
+}
+.b-red-g {
+  background: linear-gradient(to right, #ff004c, #c300ff);
+}
+.bg-red2-g {
+  background: linear-gradient(to right, red, #ff9100);
+}
+.id-m {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+.id-m img {
+  width: 1.8rem;
+  margin-right: 0.2rem;
+}
+.id-m p {
+  font-size: 0.8rem;
+}
+.num-box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.num-box p:first-child {
+  font-family: Inter-Bold;
+  font-size: 3rem;
+}
+.num-box p:last-child {
+  word-spacing: 1px;
+}
+.tody-n {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.c-tody-n {
+  position: absolute;
+  display: flex;
+  height: 8rem;
+  width: 100%;
+  align-items: end;
+  justify-content: center;
+}
+.tody-n p {
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+  color: green;
+}
+.instagram-img {
+  width: 1.4rem !important;
+}
+.down {
+  color: #ff2222 !important;
+}
+
+.title_web {
+  position: relative;
+  display: flex;
+}
+.title_web p {
+  margin-left: 1rem;
+  font-family: Inter-Bold;
+}
+/* ot */
+
+.ot {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.ot-box {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  border-radius: 0.3rem;
+  background-color: #e7e7e7;
+  margin-top: 1.5rem;
+}
+@media (hover: hover) {
+  .ot-box:hover {
+    background-color: #cfcfcf;
+  }
+}
+.text-icon {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  background-color: blue;
+  align-items: center;
+}
+.text-icon .text {
+  position: absolute;
+  display: flex;
+  margin-left: 1rem;
+}
+.text-icon .icon {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.text-icon .icon img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+.num-info {
+  position: absolute;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: end;
+}
+.num-info .num {
+  margin-left: 1rem;
+}
+.img-num {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.num-info .num p {
+  font-family: Inter-Bold;
+  font-size: 1.8em;
+}
+.img-num p {
+  margin-right: 1rem;
+  margin-left: 0.15rem;
+}
+.color-green {
+  color: #00b400;
+}
+.color-red {
+  color: red;
+}
+.img-num img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.tex-dlmode-td {
+  display: none;
+}
+
+
+.toggle-switch .toggle-label {
+  width: 55px;
+  height: 27px;
+}
+.toggle-switch .toggle-label::before {
+  width: 23px;
+  height: 23px;
+}
+.toggle-switch .toggle-input:checked + .toggle-label::before {
+  transform: translateX(28px);
+}

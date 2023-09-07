@@ -1,0 +1,38 @@
+.toggle-switch.DarkLocal .toggle-label::before {
+  left: auto;
+  right: 2px;
+}
+.toggle-switch.DarkLocal .toggle-input:checked + .toggle-label::before {
+  transform: translateX(-28px);
+}
+.toggle-switch.Dark .toggle-label,
+.toggle-switch.DarkLocal .toggle-label {
+  background: linear-gradient(to right, #00c3ff, #00ff73);
+}
+.toggle-switch.light .toggle-label {
+  background: linear-gradient(to right, #dfdfdf, #cecece);
+}
+
+html.DarkMode body {
+  background-color: #1d2029;
+}
+html.DarkMode .bg-body {
+  background-color: #282a37;
+}
+html.DarkMode .first-p, html.DarkMode .num-box p:first-child, html.DarkMode .title_web p,
+html.DarkMode .num-info .num p {
+  color: #fff;
+}
+html.DarkMode .child-2, html.DarkMode .tex-dlmode-td, html.DarkMode .id-m p, html.DarkMode .p-fs,
+html.DarkMode .text-icon .text p, html.DarkMode .text-dlmode {
+  color: #bfbfbf;
+}
+html.DarkMode .box-info, html.DarkMode .ot-box {
+  background-color: #252b43;
+}
+@media (hover: hover) {
+  html.DarkMode .box-info:hover,
+  html.DarkMode .ot-box:hover {
+    background-color: #333a56;
+  }
+}
